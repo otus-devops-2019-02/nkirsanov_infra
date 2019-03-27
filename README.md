@@ -8,3 +8,4 @@ ssh -i ~/.ssh/nkirsanov -o ProxyCommand="ssh -W %h:%p -i ~/.ssh/nkirsanov nkirsa
 bastion_IP 35.246.232.178
 someinternalhost_IP 10.156.0.3
 
+
