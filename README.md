@@ -10,4 +10,6 @@ someinternalhost_IP = 10.156.0.3
 
 Добавлен сертификатLet's Encrypt  к веб-адмике https://35.246.232.178.xip.io
 
+testapp_IP = 35.246.232.178
+testapp_port = 9292
 
