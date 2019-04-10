@@ -14,7 +14,7 @@
             "zone": "europe-west1-b",
 	    "image_description" : "My image",
 	    "disk_type" : "SSD",
-	    "disk_size" : "10GB",
+	    "disk_size" : "10",
 	    "tags": "puma-server",
 	    "network" : "default", 
             "ssh_username": "nkirsanov",
