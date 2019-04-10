@@ -1,4 +1,9 @@
 {
-"project_id": "Infra-111222",
-"source_image_family": "ubuntu-1604"
+  "project_id": "Infra-111222",
+  "source_image_family": "ubuntu-1604-lts",
+  "image_description" : "My image",
+  "disk_type" : "pd-standard",
+  "disk_size" : "10",
+  "tags": "puma-server",
+  "network" : "default",
 }

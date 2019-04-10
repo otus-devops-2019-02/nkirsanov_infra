@@ -11,12 +11,7 @@
             "image_name": "reddit-base-{{timestamp}}",
             "image_family": "reddit-base",
             "source_image_family": "{{ user `source_image_family` }} ",
-            "zone": "europe-west1-b",
-	    "image_description" : "My image",
-	    "disk_type" : "SSD",
-	    "disk_size" : "10",
-	    "tags": "puma-server",
-	    "network" : "default", 
+            "zone": "europe-west1-b", 
             "ssh_username": "nkirsanov",
             "machine_type": "f1-micro"
         }
