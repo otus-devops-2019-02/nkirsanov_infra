@@ -64,7 +64,6 @@ resource "google_compute_instance" "app" {
     private_key = "${file("~/.ssh/appuser")}"
   }
 
-
   provisioner "file" {
     source      = "files/puma.service"
     destination = "/tmp/puma.service"
@@ -74,8 +73,8 @@ resource "google_compute_instance" "app" {
     script = "files/deploy.sh"
   }
 }
+
 resource "google_compute_project_metadata_item" "default" {
   key   = "ssh-keys"
   value = "appuser1:${file(var.public_key_path)} \n appuser2:${file(var.public_key_path)} \n appuser3:${file(var.public_key_path)}"
 }
-
