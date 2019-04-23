@@ -35,3 +35,12 @@ gcloud compute firewall-rules create puma-server \
   --priority=1000 \
   --network=default \
   --direction INGRESS
+
+
+Домашнее задание № 6
+(Terraform-1)
+Установка terraform
+Подготовил конфиги  по созданию и настройке экземпляра ВМ
+Написан код для добавления ключей нескольки пользователей
+После добавления через web интерфейс ssh ключа и выполнения terraform apply он удаляется.
+
