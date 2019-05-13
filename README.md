@@ -51,3 +51,8 @@ gcloud compute firewall-rules create puma-server \
 -Настроены правила ssh для разных окружений prod и stage
 -Созданы тестовые bucketы
 
+Домашнее задание № 8
+ (Andsible-1)
+- Установил ansible. Изучение основ, проверка работы модулей и различных типов inventory файлов
+- ansible-playbook clone.yml при первом запуске ничего не делал поскольку репозиторий уже существовал. Далее после запуска ansible app -m command -a 'rm -rf ~/reddit' каталог был удален и при повторном запуке playbook он был успешно клонирован   
+
