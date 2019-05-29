@@ -74,4 +74,13 @@ gcloud compute firewall-rules create puma-server \
 -Созданы три плейбука для настройки сервера прилодений, базы данных и деплоя кода
 -в packer Provision изменен на ansible
 
+Домашнее задание № 10
+ (Andsible-3)
+Работа с плейбуками
+-Создал роли
+-Развернул окружения stage и prod
+-Добавил роль nginx
+-Использовал Ansible Vault для шифрации файлов
+
+
 
