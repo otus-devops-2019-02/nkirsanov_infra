@@ -83,4 +83,10 @@ gcloud compute firewall-rules create puma-server \
 -Использовал Ansible Vault для шифрации файлов
 
 
-
+Домашнее задание № 11
+ (Andsible-4)
+-Установил Vagrant, VirtualBox, Molecule, Testinfra
+-C помощью Vagrant локально разверныты 2 VM c ролями app и db
+-Добавил nginx (можно проверить на 80 порту)
+-Настроил тесты с помощью molecule и testinfra
+-Поправил шаблоны Packer 

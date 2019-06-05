@@ -11,11 +11,14 @@
             "machine_type": "f1-micro"
         }
     ],
+
     "provisioners": [
-        {
-            "type": "ansible",
-            "playbook_file": "ansible/packer_app.yml"
-        }
-    ]
+    {
+      "type": "ansible",
+      "playbook_file": "ansible/playbooks/packer_app.yml",
+      "extra_arguments": ["--tags","ruby"],
+      "ansible_env_vars": ["ANSIBLE_ROLES_PATH={{ pwd }}/ansible/roles"]
+    }
+  ]
 }
 
